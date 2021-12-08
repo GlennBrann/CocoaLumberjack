@@ -6,6 +6,19 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		DE1E4C4E27613EA200D8B32C /* CocoaLumberjack XCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DE1E4C4F27613EA200D8B32C /* Build configuration list for PBXAggregateTarget "CocoaLumberjack XCFramework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "CocoaLumberjack XCFramework";
+			productName = "CocoaLumberjack XCFramework";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		071909DD243C9FFC001C431F /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 071909CD243C9FF8001C431F /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		071909DE243C9FFC001C431F /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 071909CE243C9FF8001C431F /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -479,6 +492,9 @@
 						CreatedOnToolsVersion = 7.0;
 						LastSwiftMigration = 0900;
 					};
+					DE1E4C4E27613EA200D8B32C = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = DCB3184A14EB418D001CFBEE /* Build configuration list for PBXProject "Lumberjack" */;
@@ -497,6 +513,7 @@
 				18F3BFD61A81E06E00692297 /* CocoaLumberjack-Static */,
 				19FF46011B8B4CF400B43179 /* CocoaLumberjack */,
 				19FF460E1B8B4D1400B43179 /* CocoaLumberjackSwift */,
+				DE1E4C4E27613EA200D8B32C /* CocoaLumberjack XCFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -660,6 +677,24 @@
 			};
 			name = Release;
 		};
+		DE1E4C5027613EA200D8B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YFWG6J4YR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE1E4C5127613EA200D8B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YFWG6J4YR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -695,6 +730,15 @@
 			buildConfigurations = (
 				DCB3186414EB418E001CFBEE /* Debug */,
 				DCB3186514EB418E001CFBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1E4C4F27613EA200D8B32C /* Build configuration list for PBXAggregateTarget "CocoaLumberjack XCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1E4C5027613EA200D8B32C /* Debug */,
+				DE1E4C5127613EA200D8B32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
